@@ -27,4 +27,4 @@ database = "store" </code> . Therefore, import this file inside main.py, then co
 <p align="center">
 <img src="https://sun9-55.userapi.com/impg/GsYWAqObS7T03QauV1_1od5PEm2iFPRTy4t5iA/mkWxUr1Sil4.jpg?size=604x392&quality=96&sign=59b34892228d84f10f8003f00304ef77&type=album">
 </p>
-<p> After work done, return it & back to the page ( reload a web-site ). You can abserve that JSON return, however without headers of the table. Next we'll create a collector for database #2. Lets install bootstrap library in our project, </p>
+<p> After work done, return it & back to the page ( reload a web-site ). You can abserve that JSON return, however without headers of the table. Next we'll create a collector for database #2. Lets install bootstrap library in our project, then create a simple reg form. Connect it with function by using action method in html, likewise in my case first function responsible for render index file, second responsible to the adding user inside PostgresQL.</p>
