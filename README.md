@@ -3,7 +3,7 @@
   <img src="https://media.giphy.com/media/UDXM9DS5SBXCr2gsUi/giphy.gif">
 </p> -->
 <h2> 📦 Installation </h2>
-<p> Before the installation this project, you should be sure that you install PostgreSQL. In addition to this files, install a requirements.txt. First of all, inside config.py input <b> YOUR DATABASE POSTGRESQL PASSWORD & HOST & etc.  </b>. Second, inside <code>command prompt</code> print <b> python main.py </b> ( make sure you inside project folder </b>. </p>
+<p> Before the installation this project, you should be sure that you install PostgreSQL. In addition to this files, install a requirements.txt. First of all, inside config.py input <b> YOUR DATABASE POSTGRESQL PASSWORD & HOST & etc.  </b>. Second, inside <code>command prompt</code> print <b> python main.py </b> ( make sure you inside project folder </b>. Unarchive the file __pycache__.zip to deploy it.</p>
 <h2> 🎯 Main target </h2>
 <p> Create a database in the PostgreSQL, then receive an access via port. Cultivate data & illation in JSON package in the web-server. </p>
 <h2> 📩 Developing </h2>
