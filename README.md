@@ -1,7 +1,7 @@
 # API-Storefront-PostgreSQL
-<p align="center">
+<!-- <p align="center">
   <img src="https://media.giphy.com/media/UDXM9DS5SBXCr2gsUi/giphy.gif">
-</p>
+</p> -->
 <h2> 📦 Installation </h2>
 <p> Before the installation this project, you should be sure that you install PostgreSQL. In addition to this files, install a requirements.txt. First of all, inside config.py input <b> YOUR DATABASE POSTGRESQL PASSWORD & HOST & etc.  </b>. Second, inside <code>command prompt</code> print <b> python main.py </b> ( make sure you inside project folder </b>. </p>
 <h2> 🎯 Main target </h2>
