@@ -3,28 +3,17 @@
   <img src="https://media.giphy.com/media/UDXM9DS5SBXCr2gsUi/giphy.gif">
 </p>
 <h2> 📦 Installation </h2>
-<p> Before the installation this project, you should be sure that you install PostgreSQL. </p>
+<p> Before the installation this project, you should be sure that you install PostgreSQL. In addition to this files, install a requirements.txt. First of all, inside config.py input <b> YOUR DATABASE POSTGRESQL PASSWORD & HOST & etc.  </b>. Second, inside <code>command prompt</code> print <b> python main.py </b> ( make sure you inside project folder </b>. </p>
 <h2> 🎯 Main target </h2>
 <p> Create a database in the PostgreSQL, then receive an access via port. Cultivate data & illation in JSON package in the web-server. </p>
 <h2> 📩 Developing </h2>
-<p> First of all, Work is started when web-server is started. Create a database, then go to the proporties to see owner name, psw & etc. . I created database named Storefront 📦, then I should create a table. Inside python I created a file <code> .sql </code> and write following : </p>
+<p> First of all, we should get access to PostgresQL using our local port. After connection we should prepare to create a first table, inside this project I made it in <b> function ReaderFiles ( ) </b>. Likewise we create an index.html file with basic register form via Bootstrap.  </p>
 <p align="center">
-  <img src="https://sun9-23.userapi.com/impg/sGN9g1vpC81WnOQ1P9s9ycgHxWYcM86xY0Pr-g/7UX_G54DxPk.jpg?size=360x163&quality=96&sign=38007790c3948031a3b47b2e00ac8051&type=album">
+  <img src="https://sun9-66.userapi.com/impg/DfYqXly7FEh2pBhrkLlUNePqIAbOJl76F7b85w/Z04k-r7r6d8.jpg?size=604x380&quality=96&sign=3ce614138f3e87eeb74d6c3fd82d8e2d&type=album">
 </p>
-<p> Input inside special <b>console log</b>, then check it appeared or not.  </p>
+<p> After creating a table, web-server render us to the <b> function Base ( ) </b>. This function insert inside table datas which we input in the register form, if we back again to the PostgresQL we will abserve new user. Below index.html file, we got a button JSON -> which render us to the return all datas in the table. Inside function Base ( ), programm just search files from index.html ( which data we input ).  </p>
 <p align="center">
-<img src="https://sun9-71.userapi.com/impg/Qq4e0D_C-qawZpGHu88Dqaxn5DXCIfIsh6YbLw/eH5Xg4cZZ5A.jpg?size=604x392&quality=96&sign=e63c04e9ec0da7f73244a86202e11523&type=album">
-<img src="https://sun9-20.userapi.com/impg/d84-Af97qsUTcXCL8xi0rxEvUKTs6WFM9VGZUQ/UI8yU3fb7G8.jpg?size=604x390&quality=96&sign=0b6aa61e349e7d32f0de5ac50e5d7a5f&type=album">
+  <img src="https://sun9-26.userapi.com/impg/opKyBuFpCUZd-6mhCGikEGyhn09JMAUFwaPamg/j_9YgQpzGpw.jpg?size=604x346&quality=96&sign=e4c4ce4c96c15786ea36e656533dc326&type=album">
 </p>
-<p> You can abserve what kinda information you will see in the header of the table 📩. Thereafter insert new inforamation, in my case I got a JSON package to work with.  </p>
-<p align="center">
-  <img src="https://sun9-81.userapi.com/impg/CoKl4qdw896bXidKHnx6eWMvrP6_ZXof8igeUA/sCwnoikzdig.jpg?size=604x389&quality=96&sign=f06e9c20549cd74e551868e651f9e9d7&type=album">
-</p>
-<p> Lets return to the Flask, and write down our basic start <b> ( for Flask library ) </b>. Likewise, create a config.py file & write there following : <code>host = "localhost"
-user = "postgres"
-password = "psw"
-database = "store" </code> . Therefore, import this file inside main.py, then connect it with server using command <code> psycopg2.connect </code>. Made a <i> try - except mode </i> .</p>
-<p align="center">
-<img src="https://sun9-55.userapi.com/impg/GsYWAqObS7T03QauV1_1od5PEm2iFPRTy4t5iA/mkWxUr1Sil4.jpg?size=604x392&quality=96&sign=59b34892228d84f10f8003f00304ef77&type=album">
-</p>
-<p> After work done, return it & back to the page ( reload a web-site ). You can abserve that JSON return, however without headers of the table. Next we'll create a collector for database #2. Lets install bootstrap library in our project, then create a simple reg form. Connect it with function by using action method in html, likewise in my case first function responsible for render index file, second responsible to the adding user inside PostgresQL.</p>
+<h2> 🎯 Results </h2>
+<p>  </p>
