@@ -1,4 +1,4 @@
 host = "localhost"
 user = "postgres"
-password = "31415926535r"
+password = "yourpassword"
 database = "store"
